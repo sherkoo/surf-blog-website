@@ -1,0 +1,15 @@
+.aside{
+  padding-left: 75px;
+
+  @media (max-width: $breakpoint-md){
+    padding-left: $gutter-width / 2;
+  }
+}
+
+.aside-module{
+  margin-bottom: 40px;
+}
+
+.aside .hr{
+  margin-bottom: 40px;
+}

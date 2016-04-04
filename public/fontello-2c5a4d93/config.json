@@ -1,0 +1,98 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "9dd9e835aebe1060ba7190ad2b2ed951",
+      "css": "search",
+      "code": 59392,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "dd492243d64e21dfe16a92452f7861cb",
+      "css": "th-large",
+      "code": 59393,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "ccddff8e8670dcd130e3cb55fdfc2fd0",
+      "css": "down-open",
+      "code": 59394,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "fe6697b391355dec12f3d86d6d490397",
+      "css": "up-open",
+      "code": 59395,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "5de9370846a26947e03f63142a3f1c07",
+      "css": "angle-up",
+      "code": 59396,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "e4dde1992f787163e2e2b534b8c8067d",
+      "css": "angle-down",
+      "code": 59397,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "f805bb95d40c7ef2bc51b3d50d4f2e5c",
+      "css": "th-list",
+      "code": 59398,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "08d4aa0f252279dbcc155efb8fcf2063",
+      "css": "menu",
+      "code": 59399,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M0 0L1315.8 0 1315.8 157.9 0 157.9 0 0ZM0 421.1L1578.9 421.1 1578.9 578.9 0 578.9 0 421.1ZM0 842.1L1315.8 842.1 1315.8 1000 0 1000 0 842.1Z",
+        "width": 1579
+      },
+      "search": [
+        "menu"
+      ]
+    },
+    {
+      "uid": "b917ff35c99793f5b18ce6cf8318f43d",
+      "css": "close",
+      "code": 59400,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M399 500L28.6 870.4 129.6 971.4 500 601 870.4 971.4 971.4 870.4 601 500 971.4 129.6 870.4 28.6 500 399 129.6 28.6 28.6 129.6 399 500Z",
+        "width": 1000
+      },
+      "search": [
+        "close"
+      ]
+    },
+    {
+      "uid": "d73eceadda1f594cec0536087539afbf",
+      "css": "heart",
+      "code": 59401,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "frauy9fser6zk9n5ih3rdpz7zzfjbrvu",
+      "css": "eye",
+      "code": 59402,
+      "src": "modernpics"
+    },
+    {
+      "uid": "16890362e811b4cb8de36282b071fe30",
+      "css": "comment",
+      "code": 59403,
+      "src": "entypo"
+    }
+  ]
+}

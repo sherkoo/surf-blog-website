@@ -1,0 +1,25 @@
+.breadcrumbs{
+  margin: 50px 0 40px 0;
+  padding: 0px;
+  font-size: 13px;
+  font-family: $font-heading;
+
+  li{
+    display: inline;
+    padding-right: 0 10px;
+
+    &:after{
+      padding-left: 6px;
+      content: "/";
+      color: $gray3;
+    }
+
+    &:last-child:after{
+      content: "";
+    }
+  }
+
+  a:hover{
+    text-decoration: underline;
+  }
+}

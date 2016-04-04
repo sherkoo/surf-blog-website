@@ -1,0 +1,20 @@
+.btn{
+  padding: 16px 0;
+  background-color: $green;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: background-color .25s ease-in-out;
+  cursor: pointer;
+
+  &:hover{
+    background-color: lighten($green, 2);
+  }
+}
+
+.btn-full{
+  width: 100%;
+}
