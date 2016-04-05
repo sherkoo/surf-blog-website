@@ -6,6 +6,11 @@
   overflow: hidden;
 }
 
+.article img{
+  display: block;
+  min-width: 100%;
+}
+
 .article-meta{
   padding: 32px;
 }

@@ -1,3 +1,9 @@
+/**
+ * Mobile Navigation Dropdown
+ * --------------------------
+ * Actives when viewed on a device of 414px
+ **/
+
 $(document).ready(function(){
 
   $('.header-mobile-menu .close').hide();

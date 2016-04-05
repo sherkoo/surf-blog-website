@@ -6,13 +6,17 @@
   min-height: 450px;
   overflow: hidden;
   text-align: center;
+
+  @media (max-width: $breakpoint-sm){
+    min-height: 230px;
+  }
 }
 
 .banner-title{
   color: #fff;
   max-width: 500px;
   margin: 0 auto;
-  font-weight: 800;
+  font-weight: 900;
   margin-bottom: 40px;
   letter-spacing: -2px;
   font-family: $font-heading;
@@ -20,6 +24,10 @@
   font-size: 70px;
   line-height: 1;
   margin-top: 125px;
+
+  @media (max-width: $breakpoint-sm){
+    font-size: 40px;
+  }
 }
 
 .banner-cta{

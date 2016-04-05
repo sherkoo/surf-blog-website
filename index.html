@@ -14,7 +14,7 @@
   <title>SURF - the Blog</title>
 
   <!-- Typography -->
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900|Noto+Sans' rel='stylesheet' type='text/css'>
 
   <!-- Style -->
   <link rel="stylesheet" href="public/css/main.min.css" media="screen">
@@ -34,11 +34,11 @@
         </div>
         <nav class="header-nav" role="navigation">
           <ul>
-            <li><a href="#">Videos</a></li>
-            <li><a href="#">Photos</a></li>
-            <li><a href="#">New</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="page.html">Videos</a></li>
+            <li><a href="page.html">Photos</a></li>
+            <li><a href="page.html">New</a></li>
+            <li><a href="page.html">Contact</a></li>
+            <li><a href="page.html">About</a></li>
           </ul>
         </nav>
         <div class="header-search">
@@ -60,120 +60,124 @@
     </div>
   </section>
 
-  <!-- Articles -->
+  <!-- Main Content -->
   <main role="main">
-    <div class="container">
-      <div class="col-12 col-no-margin">
-        <ul class="breadcrumbs">
-          <li>Newsfeed</li>
-          <li><a href="#">Recent News</a></li>
-        </ul>
-      </div>
-      <section class="col-8 col-sm-12">
-        <article class="article">
-          <div class="article-img">
-            <div class="article-read">
-              READ
-            </div>
-            <img src="public/img/article-img-2.jpg" alt="surf image article" />
-          </div>
-          <div class="article-meta">
-            <time class="article-date" datetime="2016-2-3">2/3/16</time>
-            <h2 class="article-heading"><a href="#">The freshness of surf fashion</a></h2>
-            <p class="article-body">
-              Fashion axe kale chips bushwick, wolf actually schlitz beard yuccie farm-to-table. Cred butcher cardigan gentrify brooklyn quinoa. Stumptown kickstarter offal kinfolk…
-            </p>
-          </div>
-        </article>
-
-        <!-- Secondary Articles -->
-        <div class="container container-nested">
-          <div class="col-6 col-md-12 col-no-margin">
-            <article class="article article-secondary">
-              <div class="article-img">
-                <div class="article-read">
-                  READ
-                </div>
-                <img src="public/img/article-img-3.jpg" alt="surf image article" />
-              </div>
-              <div class="article-meta">
-                <time class="article-date" datetime="2016-3-5">3/5/16</time>
-                <h2 class="article-heading"><a href="#">Kelly Slater's cool new surf line</a></h2>
-                <p class="article-body">
-                  Fashion axe kale chips bushwick, wolf actually schlitz beard yuccie...
-                </p>
-              </div>
-            </article>
-          </div>
-          <div class="col-6 col-md-12 col-no-margin">
-            <article class="article article-secondary">
-              <div class="article-img">
-                <div class="article-read">
-                  READ
-                </div>
-                <img src="public/img/article-img-4.jpg" alt="surf image article" />
-              </div>
-              <div class="article-meta">
-                <time class="article-date" datetime="2016-2-3">2/3/16</time>
-                <h2 class="article-heading"><a href="#">Kurt Harper, the surf legend</a></h2>
-                <p class="article-body">
-                  Fashion axe kale chips bushwick, wolf actually schlitz beard yuccie...
-                </p>
-              </div>
-            </article>
-          </div>
+    <section>
+      <div class="container">
+        <!-- breadcrumbs -->
+        <div class="col-12 col-no-margin">
+          <ul class="breadcrumbs">
+            <li>Newsfeed</li>
+            <li><a href="#">Recent News</a></li>
+          </ul>
         </div>
 
-        <article class="article">
-          <div class="article-img">
-            <div class="article-read">
-              READ
+        <!-- articles -->
+        <div class="col-8 col-md-12">
+          <article class="article">
+            <div class="article-img">
+              <div class="article-read">
+                READ
+              </div>
+              <a href="post.html"><img src="public/img/article-img-2.jpg" alt="surf image article" /></a>
             </div>
-            <img src="public/img/article-img-2.jpg" alt="surf image article" />
-          </div>
-          <div class="article-meta">
-            <time class="article-date" datetime="2016-2-3">2/3/16</time>
-            <h2 class="article-heading"><a href="#">The best surf videos of 2016</a></h2>
-            <p class="article-body">
-              Fashion axe kale chips bushwick, wolf actually schlitz beard yuccie farm-to-table. Cred butcher cardigan gentrify brooklyn quinoa. Stumptown kickstarter offal kinfolk…
-            </p>
-          </div>
-        </article>
-
-        <article class="article">
-          <div class="article-img">
-            <div class="article-read">
-              READ
+            <div class="article-meta">
+              <time class="article-date" datetime="2016-2-3">2/3/16</time>
+              <h2 class="article-heading"><a href="#">The freshness of surf fashion</a></h2>
+              <p class="article-body">
+                Fashion axe kale chips bushwick, wolf actually schlitz beard yuccie farm-to-table. Cred butcher cardigan gentrify brooklyn quinoa. Stumptown kickstarter offal kinfolk…
+              </p>
             </div>
-            <img src="public/img/article-img-3.jpg" alt="surf image article" />
-          </div>
-          <div class="article-meta">
-            <time class="article-date" datetime="2016-2-3">2/3/16</time>
-            <h2 class="article-heading"><a href="#">The booming Brazil scene</a></h2>
-            <p class="article-body">
-              Fashion axe kale chips bushwick, wolf actually schlitz beard yuccie farm-to-table. Cred butcher cardigan gentrify brooklyn quinoa. Stumptown kickstarter offal kinfolk…
-            </p>
-          </div>
-        </article>
+          </article>
 
-        <button type="button" class="btn btn-full"><span class="icon-th-list"></span> Load More</button>
-      </section>
+          <article class="article">
+            <div class="article-img">
+              <div class="article-read">
+                READ
+              </div>
+              <a href="post.html"><img src="public/img/article-img-5.jpg" alt="surf image article" /></a>
+            </div>
+            <div class="article-meta">
+              <time class="article-date" datetime="2016-2-3">2/3/16</time>
+              <h2 class="article-heading"><a href="#">The freshness of surf fashion</a></h2>
+              <p class="article-body">
+                Fashion axe kale chips bushwick, wolf actually schlitz beard yuccie farm-to-table. Cred butcher cardigan gentrify brooklyn quinoa. Stumptown kickstarter offal kinfolk…
+              </p>
+            </div>
+          </article>
 
-      <!-- Aside -->
-      <aside class="aside col-4 col-sm-12">
-        <div class="aside-module newsletter">
-          <div class="newseltter-meta">
-            <div class="newsletter-title">Sign Up Free</div>
-            <div class="newsletter-body">For Daily News Fresh <br/>From the Coast, Brah.</div>
-          </div>
-          <form>
-            <input type="text" class="newsletter-text" placeholder="Email" name="name" value="">
-            <button type="submit" class="newsletter-btn">Sign Up</button>
-          </form>
+          <article class="article">
+            <div class="article-img">
+              <div class="article-read">
+                READ
+              </div>
+              <a href="post.html"><img src="public/img/article-img-3.jpg" alt="surf image article" /></a>
+            </div>
+            <div class="article-meta">
+              <time class="article-date" datetime="2016-2-3">2/3/16</time>
+              <h2 class="article-heading"><a href="#">The freshness of surf fashion</a></h2>
+              <p class="article-body">
+                Fashion axe kale chips bushwick, wolf actually schlitz beard yuccie farm-to-table. Cred butcher cardigan gentrify brooklyn quinoa. Stumptown kickstarter offal kinfolk…
+              </p>
+            </div>
+          </article>
+
+          <article class="article">
+            <div class="article-img">
+              <div class="article-read">
+                READ
+              </div>
+              <a href="post.html"><img src="public/img/article-img-4.jpg" alt="surf image article" /></a>
+            </div>
+            <div class="article-meta">
+              <time class="article-date" datetime="2016-2-3">2/3/16</time>
+              <h2 class="article-heading"><a href="#">The freshness of surf fashion</a></h2>
+              <p class="article-body">
+                Fashion axe kale chips bushwick, wolf actually schlitz beard yuccie farm-to-table. Cred butcher cardigan gentrify brooklyn quinoa. Stumptown kickstarter offal kinfolk…
+              </p>
+            </div>
+          </article>
+
+          <article class="article">
+            <div class="article-img">
+              <div class="article-read">
+                READ
+              </div>
+              <a href="post.html"><img src="public/img/article-img-3.jpg" alt="surf image article" /></a>
+            </div>
+            <div class="article-meta">
+              <time class="article-date" datetime="2016-2-3">2/3/16</time>
+              <h2 class="article-heading"><a href="#">The freshness of surf fashion</a></h2>
+              <p class="article-body">
+                Fashion axe kale chips bushwick, wolf actually schlitz beard yuccie farm-to-table. Cred butcher cardigan gentrify brooklyn quinoa. Stumptown kickstarter offal kinfolk…
+              </p>
+            </div>
+          </article>
+
+          <button type="button" class="btn btn-full"><span class="icon-th-list"></span> Load More</button>
         </div>
-        <div class="hr"></div>
-        <!-- Tabs -->
-        <div class="aside-module">
+
+        <!-- sidebar -->
+        <aside class="col-4 col-md-12">
+          <div class="aside-module newsletter">
+            <!-- Begin MailChimp Signup Form -->
+            <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+            <div id="mc_embed_signup">
+              <div class="newsletter-meta">
+                <div class="newsletter-title">Sign Up Free</div>
+                <div class="newsletter-body">For Daily News Fresh <br/>From the Coast, Brah.</div>
+              </div>
+              <form action="//designisthereason.us11.list-manage.com/subscribe/post?u=9db560fc5204fcaa8881b96b2&amp;id=73e0dc4b79" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <input type="email" class="email required newsletter-text" placeholder="Email" name="EMAIL" value="" id="mce-EMAIL">
+                <button type="submit" class="newsletter-btn">Sign Up</button>
+              </form>
+            </div>
+          </div>
+
+          <div class="hr"></div>
+
+          <!-- Tabs -->
+          <div class="aside-module">
             <ul class="tabs">
               <li>
                 <div class="tab-title">
@@ -215,10 +219,13 @@
                 </div>
               </li>
             </ul>
-        </div>
-      </aside>
-    </div>
+          </div>
+        </aside>
+      </div>
+    </section>
   </main>
+
+
 
   <!-- Footer -->
   <footer class="footer">
@@ -234,7 +241,7 @@
   <!-- Scripts -->
   <script src="public/libs/jquery/dist/jquery.min.js"></script>
   <script src="public/js/min/main.min.js"></script>
-  <script src="public/libs/modernizr/src/Modernizr.js"></script>
+  <script src="public/libs/modernizr/modernizr.js"></script>
 
   <!-- Analytics -->
   <script type="text/javascript">

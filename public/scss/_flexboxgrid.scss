@@ -28,12 +28,12 @@ $breakpoint-sm: 414px;
   width: $container-width + $gutter-width;
   max-width: 100%;
   margin: 0 auto;
-  display: -webkit-flex;
-  display: -ms-flex;
   display: flex;
-  -webkit-flex-flow: wrap;
-  -ms-flex-flow: wrap;
+    display: -ms-flex;
+    display: -webkit-flex;
   flex-flow: wrap;
+    -webkit-flex-flow: wrap;
+    -ms-flex-flow: wrap;
 }
 
 .container.container-nested [class*='col-']{
@@ -71,50 +71,62 @@ $breakpoint-sm: 414px;
 
 .col-1{
   flex: 0 0 $col-1;
+  -webkit-flex: 0 0 $col-1;
 }
 
 .col-2{
   flex: 0 0 $col-2;
+  -webkit-flex: 0 0 $col-2;
 }
 
 .col-3{
   flex: 0 0 $col-3;
+  -webkit-flex: 0 0 $col-3;
 }
 
 .col-4{
   flex: 0 0 $col-4;
+  -webkit-flex: 0 0 $col-4;
 }
 
 .col-5{
   flex: 0 0 $col-5;
+  -webkit-flex: 0 0 $col-5;
 }
 
 .col-6{
   flex: 0 0 $col-6;
+  -webkit-flex: 0 0 $col-6;
 }
 
 .col-7{
   flex: 0 0 $col-7;
+  -webkit-flex: 0 0 $col-7;
 }
 
 .col-8{
   flex: 0 0 $col-8;
+  -webkit-flex: 0 0 $col-8;
 }
 
 .col-9{
   flex: 0 0 $col-9;
+  -webkit-flex: 0 0 $col-9;
 }
 
 .col-10{
   flex: 0 0 $col-10;
+  -webkit-flex: 0 0 $col-10;
 }
 
 .col-11{
   flex: 0 0 $col-11;
+  -webkit-flex: 0 0 $col-11;
 }
 
 .col-12{
   flex: 0 0 $col-12;
+  -webkit-flex: 0 0 $col-12;
 }
 
 
@@ -127,59 +139,78 @@ $breakpoint-sm: 414px;
   margin-left: $col-2;
 }
 
-@media (max-width: 414px) {
+@media (max-width: $breakpoint-sm) {
   .col-sm-push-0{
     margin-left: 0px;
   }
 }
 
-@media (max-width: 768px){
+// Pull Columns
+@media (max-width: $breakpoint-sm) {
+  .col-sm-pull-2{
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: $breakpoint-md){
   .col-md-1{
     flex: 0 0 $col-1;
+    -webkit-flex: 0 0 $col-1;
   }
 
   .col-md-2{
     flex: 0 0 $col-2;
+    -webkit-flex: 0 0 $col-2;
   }
 
   .col-md-2{
     flex: 0 0 $col-3;
+    -webkit-flex: 0 0 $col-3;
   }
 
   .col-md-4{
     flex: 0 0 $col-4;
+    -webkit-flex: 0 0 $col-4;
   }
 
   .col-md-5{
     flex: 0 0 $col-5;
+    -webkit-flex: 0 0 $col-5;
   }
 
   .col-md-6{
     flex: 0 0 $col-6;
+    -webkit-flex: 0 0 $col-6;
   }
 
   .col-md-7{
     flex: 0 0 $col-7;
+    -webkit-flex: 0 0 $col-7;
   }
 
   .col-md-8{
     flex: 0 0 $col-8;
+    -webkit-flex: 0 0 $col-8;
   }
 
   .col-md-9{
     flex: 0 0 $col-9;
+    -webkit-flex: 0 0 $col-9;
   }
 
   .col-md-10{
     flex: 0 0 $col-10;
+    -webkit-flex: 0 0 $col-10;
   }
 
   .col-md-11{
     flex: 0 0 $col-11;
+    -webkit-flex: 0 0 $col-11;
   }
 
   .col-md-12{
     flex: 0 0 $col-12;
+    -webkit-flex: 0 0 $col-12;
   }
 
   .col-md-hide{
@@ -190,51 +221,62 @@ $breakpoint-sm: 414px;
 @media (max-width: $breakpoint-sm){
   .col-sm-1{
     flex: 0 0 $col-1;
-
+    -webkit-flex: 0 0 $col-1;
   }
 
   .col-sm-2{
     flex: 0 0 $col-2;
+    -webkit-flex: 0 0 $col-2;
   }
 
   .col-sm-2{
     flex: 0 0 $col-3;
+    -webkit-flex: 0 0 $col-3;
   }
 
   .col-sm-4{
     flex: 0 0 $col-4;
+    -webkit-flex: 0 0 $col-4;
   }
 
   .col-sm-5{
     flex: 0 0 $col-5;
+    -webkit-flex: 0 0 $col-5;
   }
 
   .col-sm-6{
     flex: 0 0 $col-6;
+    -webkit-flex: 0 0 $col-6;
   }
 
   .col-sm-7{
     flex: 0 0 $col-7;
+    -webkit-flex: 0 0 $col-7;
   }
 
   .col-sm-8{
     flex: 0 0 $col-8;
+    -webkit-flex: 0 0 $col-8;
   }
 
   .col-sm-9{
     flex: 0 0 $col-9;
+    -webkit-flex: 0 0 $col-9;
   }
 
   .col-sm-10{
     flex: 0 0 $col-10;
+    -webkit-flex: 0 0 $col-10;
   }
 
   .col-sm-11{
     flex: 0 0 $col-11;
+    -webkit-flex: 0 0 $col-11;
   }
 
   .col-sm-12{
     flex: 0 0 $col-12;
+    -webkit-flex: 0 0 $col-12;
   }
 
   .col-sm-hide{

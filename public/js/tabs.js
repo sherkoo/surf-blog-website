@@ -1,3 +1,9 @@
+/**
+ * Vertical Tabs
+ * -------------
+ * Tabs located in sidebar
+ **/
+
 $(document).ready(function(){
 
   var tabBody = $('.tab-body'),

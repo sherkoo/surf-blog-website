@@ -86,6 +86,10 @@
     text-transform: uppercase;
     font-size: 14px;
     line-height: 17px;
+
+    @media (max-width: 900px){
+      margin-right: 20px;
+    }
   }
 
   a{
@@ -105,17 +109,17 @@
 
   @media (max-width: $breakpoint-md){
     display: none;
-    background-color: rgba(0,0,0,.85);
+    background-color: rgba(0,0,0,.90);
     text-align: center;
     width: 100%;
-    margin-top: 22px;
+    margin-top: 19px;
     height: 100vh;
 
     a{
       color: #CECECE;
       font-size: 22px;
       display: block;
-      margin-bottom: 10px;
+      margin-bottom: 5px;
 
       &:hover{
         color: #fff;
@@ -149,7 +153,14 @@
 
   .input-text{
     padding-left: 25px;
+
+    @media (max-width: 900px) {
+      max-width: 170px !important;
+      float: left;
+    }
   }
+
+
 
   @media (max-width: $breakpoint-md) {
     display: none;
