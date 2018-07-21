@@ -1,11 +1,11 @@
-#About
+# Surf Blog Template Design
 Just a simple blog design for a surf magazine. Uses Gulp.js to compile the css and js.
 
 
-#Install Dependencies
+# Install Dependencies
 
 ```$ bower install```
 
 ```$ npm install```
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/stephenherko/surf-blog-website/blob/master/surf-blog-thumb.png)
